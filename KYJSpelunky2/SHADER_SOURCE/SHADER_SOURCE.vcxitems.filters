@@ -12,5 +12,8 @@
     <FxCompile Include="$(MSBuildThisFileDirectory)TriangleVS.hlsl">
       <Filter>VS</Filter>
     </FxCompile>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\source\repos\KYJSpelunky2\SHADER_SOURCE\TrianglePS.hlsl">
+      <Filter>PS</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>

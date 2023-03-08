@@ -14,6 +14,7 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
+    <FxCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\source\repos\KYJSpelunky2\SHADER_SOURCE\TrianglePS.hlsl" />
     <FxCompile Include="$(MSBuildThisFileDirectory)TriangleVS.hlsl">
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
     </FxCompile>
